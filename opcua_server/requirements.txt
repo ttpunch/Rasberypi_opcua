@@ -1,0 +1,4 @@
+opcua
+websockets
+pytest
+asyncua

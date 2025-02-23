@@ -1,0 +1,61 @@
+2025-02-23 23:37:53,339 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:37:53,343 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:37:53,343 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-23 23:37:55,352 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:37:55,352 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:37:55,355 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:37:55,356 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:00,359 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:00,359 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:06,682 - app.utils.opcua_client - ERROR - Error getting namespace index: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-23 23:38:06,682 - app.routes.data - ERROR - Error retrieving data: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-23 23:38:06,684 - app.utils.opcua_client - ERROR - Error getting namespace index: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-23 23:38:06,684 - app.routes.data - ERROR - Error retrieving data: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-23 23:38:06,692 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:06,694 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:11,680 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:11,680 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:11,697 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:11,698 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:16,687 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:16,689 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:16,704 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:16,706 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:21,694 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:21,695 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:21,711 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:21,712 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:26,700 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:26,701 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:26,717 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:26,717 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:31,705 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:31,706 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:31,721 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:31,722 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:36,710 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:36,712 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:36,727 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:36,729 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:41,717 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:41,717 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:41,733 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:41,733 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:46,722 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:46,722 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:46,738 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:46,739 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:51,728 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:51,729 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:51,742 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:51,743 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:56,735 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:56,736 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:38:56,748 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:38:56,748 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:39:01,741 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:39:01,741 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:39:01,754 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:39:01,754 - app.routes.websocket - ERROR - WebSocket error: 'coroutine' object has no attribute 'get_child'
+2025-02-23 23:39:06,798 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-23 23:39:06,798 - app.main - INFO - Successfully disconnected from OPCUA server

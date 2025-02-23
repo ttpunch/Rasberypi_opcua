@@ -1,0 +1,5 @@
+2025-02-23 23:42:32,675 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:42:32,676 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: Client.set_security() got an unexpected keyword argument 'security_string'
+2025-02-23 23:42:32,676 - app.main - ERROR - Failed to connect to OPCUA server: Client.set_security() got an unexpected keyword argument 'security_string'
+2025-02-23 23:42:33,383 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-23 23:42:33,384 - app.main - INFO - Successfully disconnected from OPCUA server

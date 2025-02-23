@@ -1,0 +1,7 @@
+2025-02-23 19:22:31,443 - __main__ - INFO - Starting OPCUA server at opc.tcp://0.0.0.0:4841
+2025-02-23 19:22:31,443 - __main__ - INFO - Namespace http://example.com/opcua/server registered with index 2
+2025-02-23 19:22:31,443 - __main__ - INFO - Added variable variable1 with value 0
+2025-02-23 19:22:31,443 - __main__ - INFO - Added variable variable2 with value initial_state
+2025-02-23 19:22:31,444 - __main__ - ERROR - Error setting up OPCUA server: object NoneType can't be used in 'await' expression
+2025-02-23 19:22:31,444 - __main__ - ERROR - Server error: object NoneType can't be used in 'await' expression
+2025-02-23 19:22:31,444 - __main__ - INFO - Stopping OPCUA server

@@ -1,0 +1,9 @@
+2025-02-23 23:39:09,812 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:39:09,816 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:39:09,816 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-23 23:39:12,106 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:39:12,107 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:39:12,108 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:39:12,109 - app.routes.websocket - ERROR - WebSocket error: The requested operation has no match to return.(BadNoMatch)
+2025-02-23 23:39:17,095 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-23 23:39:17,095 - app.main - INFO - Successfully disconnected from OPCUA server

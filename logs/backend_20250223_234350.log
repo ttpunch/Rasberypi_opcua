@@ -1,0 +1,13 @@
+2025-02-23 23:43:50,682 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:43:50,686 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:43:50,686 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-23 23:43:54,748 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:43:54,749 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:43:54,754 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:43:54,754 - app.routes.websocket - ERROR - WebSocket error: Client.set_security() got an unexpected keyword argument 'security_policies'
+2025-02-23 23:43:59,758 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:43:59,760 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-23 23:44:04,766 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-23 23:44:04,768 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-23 23:44:06,550 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-23 23:44:06,550 - app.main - INFO - Successfully disconnected from OPCUA server

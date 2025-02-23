@@ -1,0 +1,4 @@
+2025-02-23 23:19:05,850 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: [Errno 61] Connection refused
+2025-02-23 23:19:05,850 - app.main - ERROR - Failed to connect to OPCUA server: [Errno 61] Connection refused
+2025-02-23 23:19:42,524 - app.utils.opcua_client - ERROR - Error disconnecting from OPCUA server: 'NoneType' object has no attribute 'socket'
+2025-02-23 23:19:42,524 - app.main - INFO - Successfully disconnected from OPCUA server

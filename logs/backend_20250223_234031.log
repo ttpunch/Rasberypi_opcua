@@ -1,0 +1,5 @@
+2025-02-23 23:40:31,365 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:40:31,369 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
+2025-02-23 23:40:31,369 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-23 23:40:33,391 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-23 23:40:33,391 - app.main - INFO - Successfully disconnected from OPCUA server
