@@ -511,3 +511,8 @@
 2025-02-24 13:48:09,357 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.166695677266045}
 2025-02-24 13:48:10,357 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.64828233137364}
 2025-02-24 13:48:11,352 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.3805113706253}
+2025-02-24 13:48:12,367 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.848740668597918}
+2025-02-24 13:48:13,364 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.159495502550303}
+2025-02-24 13:48:14,357 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.43833880662001}
+2025-02-24 13:48:15,356 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.738810091286044}
+2025-02-24 13:48:16,361 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.90871101471266}
