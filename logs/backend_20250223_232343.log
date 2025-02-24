@@ -1,4 +1,0 @@
-2025-02-23 23:23:43,593 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: 'Client' object has no attribute 'endpoint'
-2025-02-23 23:23:43,593 - app.main - ERROR - Failed to connect to OPCUA server: 'Client' object has no attribute 'endpoint'
-2025-02-23 23:25:01,867 - app.utils.opcua_client - ERROR - Error disconnecting from OPCUA server: 'NoneType' object has no attribute 'disconnect_socket'
-2025-02-23 23:25:01,867 - app.main - INFO - Successfully disconnected from OPCUA server

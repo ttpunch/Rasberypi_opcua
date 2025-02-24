@@ -1,0 +1,77 @@
+2025-02-24 13:16:14,905 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:16:16,962 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:16:16,963 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 13:16:16,982 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:16,982 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:16:19,019 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:16:19,024 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:24,597 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:24,603 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:30,588 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:30,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:36,588 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:36,596 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:42,590 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:42,594 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:48,595 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:48,600 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:16:54,598 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:16:54,603 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:00,589 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:00,594 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:06,593 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:06,599 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:12,587 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:12,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:18,601 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:18,609 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:24,594 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:24,601 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:30,596 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:30,605 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:36,596 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:36,604 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:42,589 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:42,596 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:48,595 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:48,601 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:17:54,586 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:17:54,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:00,593 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:00,599 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:06,594 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:06,601 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:12,593 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:12,596 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:18,591 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:18,595 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:24,589 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:24,595 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:30,588 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:30,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:36,597 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:36,603 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:42,593 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:42,597 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:48,589 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:48,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:18:54,588 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:18:54,597 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:00,589 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:00,593 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:06,593 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:06,597 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:12,584 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:12,588 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:18,597 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:18,603 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:24,588 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:24,594 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-24 13:19:30,583 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:34,598 - app.utils.opcua_client - ERROR - Error getting namespace index: Connection is closed
+2025-02-24 13:19:34,599 - app.routes.websocket - ERROR - WebSocket error: Connection is closed
+2025-02-24 13:19:40,600 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:19:40,600 - app.utils.opcua_client - ERROR - Error getting namespace index: Connection is closed
+2025-02-24 13:19:40,601 - app.routes.websocket - ERROR - WebSocket error: Connection is closed
+2025-02-24 13:19:43,856 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 13:19:43,856 - app.main - INFO - Successfully disconnected from OPCUA server

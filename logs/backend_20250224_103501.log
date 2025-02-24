@@ -1,4 +1,0 @@
-2025-02-24 10:35:04,017 - app.main - INFO - Successfully connected to OPCUA server
-2025-02-24 10:35:31,716 - app.main - ERROR - Health check failed: 'UaClient' object has no attribute '_connection'
-2025-02-24 10:35:42,013 - app.routes.data - ERROR - Error retrieving data: 'OPCUAClient' object has no attribute 'get_namespace_index'
-2025-02-24 10:35:49,578 - app.main - INFO - Successfully disconnected from OPCUA server

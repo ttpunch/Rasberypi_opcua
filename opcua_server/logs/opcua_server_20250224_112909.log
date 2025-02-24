@@ -1,0 +1,4 @@
+2025-02-24 11:29:09,116 - __main__ - INFO - Starting OPCUA server at opc.tcp://0.0.0.0:4841
+2025-02-24 11:29:10,121 - __main__ - ERROR - Error setting up OPCUA server: name 'ua' is not defined
+2025-02-24 11:29:10,122 - __main__ - ERROR - Server error: name 'ua' is not defined
+2025-02-24 11:29:10,122 - __main__ - INFO - Stopping OPCUA server

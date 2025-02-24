@@ -1,0 +1,224 @@
+2025-02-24 13:30:28,995 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:31,047 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:31,048 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 13:30:31,123 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:30:31,124 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:33,185 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:33,191 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:30:33,696 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 0}
+2025-02-24 13:30:33,697 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-24 13:30:33,699 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.767844808528842}
+2025-02-24 13:30:34,196 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.83979669195626}
+2025-02-24 13:30:35,705 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.760836765076153}
+2025-02-24 13:30:36,703 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.299151265954144}
+2025-02-24 13:30:37,700 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.08625128062591}
+2025-02-24 13:30:38,703 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.059964860343527}
+2025-02-24 13:30:39,697 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.312675083247576}
+2025-02-24 13:30:40,680 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.8072200520092}
+2025-02-24 13:30:41,697 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.094995810462663}
+2025-02-24 13:30:42,323 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:30:42,326 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:42,330 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:30:42,694 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-24 13:30:42,836 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 0}
+2025-02-24 13:30:42,838 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-24 13:30:42,839 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.45488155770157}
+2025-02-24 13:30:43,324 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.76978277958338}
+2025-02-24 13:30:43,699 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:44,342 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.105881896363094}
+2025-02-24 13:30:44,345 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:30:44,353 - app.routes.data - INFO - Retrieved data: {'variable1': 0, 'variable2': 'initial_state', 'Temperature': 23.105881896363094}
+2025-02-24 13:30:44,692 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:45,339 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.270451953303983}
+2025-02-24 13:30:45,699 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:46,321 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.19727954461228}
+2025-02-24 13:30:46,691 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:47,333 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.742776264835946}
+2025-02-24 13:30:47,695 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:48,334 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.84746935118069}
+2025-02-24 13:30:48,692 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:49,332 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.859076328986335}
+2025-02-24 13:30:49,707 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:50,343 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.291128903426273}
+2025-02-24 13:30:50,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:51,327 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.34915111737824}
+2025-02-24 13:30:51,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:52,339 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.23355789554271}
+2025-02-24 13:30:52,698 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:53,320 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.473520793836308}
+2025-02-24 13:30:53,694 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:54,325 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.72418142857805}
+2025-02-24 13:30:54,708 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:55,347 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.462177368326877}
+2025-02-24 13:30:55,706 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:56,347 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.227364987447686}
+2025-02-24 13:30:56,705 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:57,343 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.30190850234447}
+2025-02-24 13:30:57,712 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:58,321 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.326831435526334}
+2025-02-24 13:30:58,684 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:30:59,324 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.847950272124514}
+2025-02-24 13:30:59,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:00,338 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.615399752027546}
+2025-02-24 13:31:00,712 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:01,337 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.38454312375889}
+2025-02-24 13:31:01,697 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:02,320 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.5018475534723}
+2025-02-24 13:31:02,695 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:03,334 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.384648406372996}
+2025-02-24 13:31:03,693 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:04,334 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.653733237083912}
+2025-02-24 13:31:04,707 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:05,335 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-24 13:31:05,693 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:06,351 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:06,689 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:07,350 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:07,688 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:08,343 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:08,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:09,325 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:09,684 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:10,045 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:31:10,051 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:31:10,344 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:10,564 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 0}
+2025-02-24 13:31:10,564 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-24 13:31:10,567 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.944543686923287}
+2025-02-24 13:31:10,567 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.18192458635974}
+2025-02-24 13:31:10,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:11,556 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.714945540681086}
+2025-02-24 13:31:11,696 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:11,820 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:12,569 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.2280475007613}
+2025-02-24 13:31:12,695 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:12,836 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:13,554 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.085842275168456}
+2025-02-24 13:31:13,693 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:13,819 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:14,566 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.427505230731224}
+2025-02-24 13:31:14,706 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:14,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:15,560 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.359371507339056}
+2025-02-24 13:31:15,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:15,843 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:16,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.162536988866425}
+2025-02-24 13:31:16,700 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:16,838 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:17,572 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.875803801611415}
+2025-02-24 13:31:17,712 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:17,837 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:18,552 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.524337570781277}
+2025-02-24 13:31:18,678 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:18,834 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:19,566 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.859390027683542}
+2025-02-24 13:31:19,708 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:19,848 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:20,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.997913163757588}
+2025-02-24 13:31:20,705 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:20,847 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:21,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.297037234820282}
+2025-02-24 13:31:21,703 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:21,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:22,567 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.154930030911649}
+2025-02-24 13:31:22,706 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:22,846 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:23,553 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.244304340037488}
+2025-02-24 13:31:23,709 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:23,837 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:24,554 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.866299338230338}
+2025-02-24 13:31:24,693 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:24,848 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:25,568 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.96693713160753}
+2025-02-24 13:31:25,707 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:25,848 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:26,569 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.295405275649376}
+2025-02-24 13:31:26,693 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:26,850 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:27,568 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.30653303274654}
+2025-02-24 13:31:27,705 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:27,846 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:28,566 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.424577636006127}
+2025-02-24 13:31:28,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:28,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:29,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.080693728616964}
+2025-02-24 13:31:29,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:29,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:30,560 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.481134557592952}
+2025-02-24 13:31:30,698 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:30,840 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:31,557 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.23557320411872}
+2025-02-24 13:31:31,696 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:31,837 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:32,555 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.36862667181616}
+2025-02-24 13:31:32,697 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:32,823 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:33,553 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.351040244613607}
+2025-02-24 13:31:33,691 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:33,832 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:34,566 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.275578752423918}
+2025-02-24 13:31:34,709 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:34,831 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:35,566 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.170466719586187}
+2025-02-24 13:31:35,707 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:35,850 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:36,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.32630125055494}
+2025-02-24 13:31:36,703 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:36,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:37,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.836405611086168}
+2025-02-24 13:31:37,700 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:37,841 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:38,546 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.99639978124231}
+2025-02-24 13:31:38,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:38,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:39,561 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.99510023732177}
+2025-02-24 13:31:39,699 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:39,840 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:40,709 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:40,836 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:41,039 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.906011073125747}
+2025-02-24 13:31:41,707 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:41,849 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:42,067 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.745882766203984}
+2025-02-24 13:31:42,690 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:42,847 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:43,065 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.590968579402022}
+2025-02-24 13:31:43,692 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:43,847 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:44,064 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.377247956375971}
+2025-02-24 13:31:44,703 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:44,845 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:45,062 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.315968326722256}
+2025-02-24 13:31:45,705 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:45,844 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:46,065 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.09214666354739}
+2025-02-24 13:31:46,704 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:46,842 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:47,062 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.96813272782724}
+2025-02-24 13:31:47,703 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:47,843 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:48,060 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.715393762742274}
+2025-02-24 13:31:48,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:48,840 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:49,058 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.718585032661704}
+2025-02-24 13:31:49,702 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:49,843 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:50,059 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.059409295344164}
+2025-02-24 13:31:50,701 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:50,842 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:51,062 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.851518647554972}
+2025-02-24 13:31:51,700 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:51,841 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:52,072 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-24 13:31:52,699 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:52,839 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:53,055 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:53,681 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:53,834 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:54,069 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:54,694 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:54,833 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:55,067 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:55,691 - app.routes.websocket - ERROR - Error in datachange_notification: Cannot call "send" once a close message has been sent.
+2025-02-24 13:31:55,748 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 13:31:55,748 - app.main - INFO - Successfully disconnected from OPCUA server

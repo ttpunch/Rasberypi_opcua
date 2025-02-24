@@ -1,0 +1,18 @@
+2025-02-24 13:26:59,298 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:01,366 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:01,367 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 13:27:03,592 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:27:03,593 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:05,642 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:05,650 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:27:13,115 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:27:13,118 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:13,121 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:27:14,817 - app.utils.opcua_client - ERROR - Error getting namespace index: 'NoneType' object has no attribute 'send_request'
+2025-02-24 13:27:14,818 - app.routes.data - ERROR - Error retrieving data: 'NoneType' object has no attribute 'send_request'
+2025-02-24 13:27:15,101 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:27:15,104 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:27:15,153 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:27:15,160 - app.routes.data - INFO - Retrieved data: {'variable1': 0, 'variable2': 'initial_state', 'Temperature': 24.266751852555167}
+2025-02-24 13:27:53,852 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 13:27:53,852 - app.main - INFO - Successfully disconnected from OPCUA server

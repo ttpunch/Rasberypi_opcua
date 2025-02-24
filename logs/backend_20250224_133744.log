@@ -1,0 +1,105 @@
+2025-02-24 13:37:44,922 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:37:46,978 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:37:46,979 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 13:37:48,595 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-24 13:37:48,596 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:37:50,649 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 13:37:50,654 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-24 13:37:51,176 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:51,177 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:51,178 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:51,661 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:52,657 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:53,654 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:54,667 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:55,656 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:56,672 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:57,671 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:58,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:37:59,680 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:00,660 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:01,659 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:02,656 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:03,664 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:04,657 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:05,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:06,672 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:07,655 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:08,654 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:09,664 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:10,645 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:11,648 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:12,670 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:13,666 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:14,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:15,673 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:16,670 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:17,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:18,666 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:19,648 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:20,661 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:21,669 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:22,670 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:23,653 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:24,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:26,165 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:27,177 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:28,163 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:29,159 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:30,157 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:31,166 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:32,162 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:33,158 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:34,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:35,157 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:36,152 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:37,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:38,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:39,158 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:40,157 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:41,154 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:42,170 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:43,169 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:44,165 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:45,179 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:46,163 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:47,168 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:48,162 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:49,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:50,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:51,158 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:52,156 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:53,151 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:54,169 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:55,164 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:56,150 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:57,148 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:58,175 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:38:59,161 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:00,160 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:01,156 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:02,166 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:03,163 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:04,147 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:05,158 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:06,154 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:07,157 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:08,156 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:09,161 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:10,145 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:11,143 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:12,143 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:13,141 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:14,169 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:15,180 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:16,163 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:17,670 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:18,669 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:19,666 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:20,669 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:21,657 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:22,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:23,668 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:24,660 - app.routes.websocket - ERROR - Error in datachange_notification: name 'WebSocketState' is not defined
+2025-02-24 13:39:24,768 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 13:39:24,768 - app.main - INFO - Successfully disconnected from OPCUA server

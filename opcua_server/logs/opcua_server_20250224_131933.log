@@ -1,0 +1,8 @@
+2025-02-24 13:19:33,243 - __main__ - INFO - Starting OPCUA server at opc.tcp://0.0.0.0:4841
+2025-02-24 13:19:34,179 - __main__ - INFO - Namespace http://example.com/opcua/server registered with index 2
+2025-02-24 13:19:34,181 - __main__ - INFO - Created MyObject node
+2025-02-24 13:19:34,182 - __main__ - INFO - Added variable variable1 with value 0
+2025-02-24 13:19:34,183 - __main__ - INFO - Added variable variable2 with value initial_state
+2025-02-24 13:19:34,184 - __main__ - INFO - Server started at opc.tcp://0.0.0.0:4841
+2025-02-24 13:26:41,637 - __main__ - INFO - Stopping OPCUA server
+2025-02-24 13:26:41,685 - __main__ - INFO - Server stopped

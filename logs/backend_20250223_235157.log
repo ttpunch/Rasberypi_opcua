@@ -1,9 +1,0 @@
-2025-02-23 23:51:57,303 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
-2025-02-23 23:51:57,307 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
-2025-02-23 23:51:57,307 - app.main - INFO - Successfully connected to OPCUA server
-2025-02-23 23:51:57,308 - app.routes.websocket - INFO - WebSocket connection established
-2025-02-23 23:51:57,308 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
-2025-02-23 23:51:57,309 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4840
-2025-02-23 23:51:57,311 - app.routes.websocket - ERROR - WebSocket error: User does not have permission to perform the requested operation.(BadUserAccessDenied)
-2025-02-23 23:52:00,037 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
-2025-02-23 23:52:00,037 - app.main - INFO - Successfully disconnected from OPCUA server

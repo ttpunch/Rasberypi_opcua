@@ -1,9 +1,8 @@
 from fastapi import APIRouter, HTTPException
-from opcua import Client, ua
+from typing import Any
 from app.config import settings
 from app.utils.opcua_client import OPCUAClient
 from app.utils.logger import get_logger
-from typing import Any
 
 router = APIRouter()
 logger = get_logger(__name__)
@@ -14,7 +13,7 @@ async def ensure_client_connected():
     if not opcua_client.client or not opcua_client.client.uaclient:
         await opcua_client.connect()
 
-@router.get("/", response_description="Retrieve real-time data from OPCUA server")
+@router.get("/", response_description="Retrieve real-time data from OPCUA server ")
 async def get_data():
     try:
         await ensure_client_connected()  # Ensure client is connected
@@ -30,8 +29,8 @@ async def get_data():
         
         data = {}
         for node in await myobj.get_children():
-            name = node.get_browse_name().Name
-            value = await node.get_value()
+            name = (await node.read_browse_name()).Name
+            value = await node.read_value()
             data[name] = value
         logger.info(f"Retrieved data: {data}")
         return {"status": "success", "data": data}

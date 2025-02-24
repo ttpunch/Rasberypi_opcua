@@ -1,5 +1,0 @@
-2025-02-24 10:21:10,752 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4840
-2025-02-24 10:21:14,798 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: Connection is closed
-2025-02-24 10:21:14,799 - app.main - ERROR - Failed to connect to OPCUA server: Connection is closed
-2025-02-24 10:21:21,600 - app.utils.opcua_client - ERROR - Error disconnecting from OPCUA server: 'NoneType' object has no attribute 'disconnect'
-2025-02-24 10:21:21,601 - app.main - INFO - Successfully disconnected from OPCUA server

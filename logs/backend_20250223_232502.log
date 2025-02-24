@@ -1,4 +1,0 @@
-2025-02-23 23:25:02,103 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: 'Client' object has no attribute 'url'
-2025-02-23 23:25:02,103 - app.main - ERROR - Failed to connect to OPCUA server: 'Client' object has no attribute 'url'
-2025-02-23 23:25:10,687 - app.utils.opcua_client - ERROR - Error disconnecting from OPCUA server: 'NoneType' object has no attribute 'disconnect_socket'
-2025-02-23 23:25:10,687 - app.main - INFO - Successfully disconnected from OPCUA server

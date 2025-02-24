@@ -3,3 +3,5 @@
 2025-02-24 10:18:59,781 - __main__ - INFO - Added variable variable1 with value 0
 2025-02-24 10:18:59,782 - __main__ - INFO - Added variable variable2 with value initial_state
 2025-02-24 10:18:59,784 - __main__ - INFO - Server started at opc.tcp://0.0.0.0:4841
+2025-02-24 11:29:03,985 - __main__ - INFO - Stopping OPCUA server
+2025-02-24 11:29:05,017 - __main__ - INFO - Server stopped

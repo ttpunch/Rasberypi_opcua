@@ -1,4 +1,0 @@
-2025-02-23 23:19:44,265 - app.utils.opcua_client - ERROR - Failed to connect to OPCUA server: object NoneType can't be used in 'await' expression
-2025-02-23 23:19:44,266 - app.main - ERROR - Failed to connect to OPCUA server: object NoneType can't be used in 'await' expression
-2025-02-23 23:23:43,363 - app.utils.opcua_client - ERROR - Error disconnecting from OPCUA server: object NoneType can't be used in 'await' expression
-2025-02-23 23:23:43,364 - app.main - INFO - Successfully disconnected from OPCUA server

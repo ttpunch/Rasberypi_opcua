@@ -14,7 +14,7 @@ logger = get_logger(__name__)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -48,7 +48,7 @@ async def shutdown_event():
 @app.get("/")
 async def root():
     try:
-        connected = opcua_client.client.uaclient and opcua_client.client.uaclient._connection
+        connected = opcua_client.client.uaclient._uasocket is not None and opcua_client.client.uaclient._uasocket.connected
         return {
             "status": "healthy",
             "opcua_connected": connected,
