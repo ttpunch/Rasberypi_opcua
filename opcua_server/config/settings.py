@@ -1,7 +1,7 @@
 from asyncua import ua
 
 # Server configuration settings
-SERVER_URL = "opc.tcp://0.0.0.0:4840"  # OPCUA server URL (accessible on the network)
+SERVER_URL = "opc.tcp://0.0.0.0:4841"  # OPCUA server URL (accessible on the network)
 NAMESPACE_URI = "http://example.com/opcua/server"  # Namespace URI from namespaces.py
 VARIABLES = {
     "variable1": 0,  # Example counter or sensor value

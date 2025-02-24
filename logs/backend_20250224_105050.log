@@ -1,0 +1,6 @@
+2025-02-24 10:50:50,104 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:50:52,174 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:50:52,175 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 10:51:08,360 - app.main - ERROR - Health check failed: 'UaClient' object has no attribute '_connection'
+2025-02-24 10:53:12,720 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 10:53:12,721 - app.main - INFO - Successfully disconnected from OPCUA server

@@ -1,0 +1,8 @@
+2025-02-24 10:30:22,593 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:30:24,648 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:30:24,650 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 10:30:38,369 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:30:40,420 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:30:40,425 - app.routes.data - ERROR - MyObject node not found: The requested operation has no match to return.(BadNoMatch)
+2025-02-24 10:33:23,758 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 10:33:23,761 - app.main - INFO - Successfully disconnected from OPCUA server

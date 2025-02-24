@@ -1,0 +1,11 @@
+2025-02-24 10:24:00,386 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:24:02,427 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:24:02,428 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-24 10:24:58,964 - app.utils.opcua_client - ERROR - Error getting namespace index: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-24 10:24:58,965 - app.utils.opcua_client - ERROR - Error retrieving config: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-24 10:24:58,965 - app.routes.config - ERROR - Error retrieving config: 'NoneType' object has no attribute 'get_namespace_index'
+2025-02-24 10:25:23,981 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:25:26,021 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-24 10:25:26,026 - app.routes.data - ERROR - MyObject node not found: The requested operation has no match to return.(BadNoMatch)
+2025-02-24 10:30:21,490 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-24 10:30:21,490 - app.main - INFO - Successfully disconnected from OPCUA server
