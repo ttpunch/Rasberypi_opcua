@@ -72,11 +72,22 @@ class OPCUAClient:
         try:
             namespace_idx = await self.get_namespace_index()
             objects = await self.get_objects_node()
-            myobj = objects.add_object(namespace_idx, "MyObject")
-            
+            logger.info(f"Namespace index: {namespace_idx}")
+            logger.info(f"Objects node: {objects}")
+            # Await the creation of the object
+            myobj = await objects.add_object(namespace_idx, "MyObject")
+            logger.info(f"Created object: {myobj}")
+
+            logger.info(f"Variables: {variables}")
             for var_name, initial_value in variables.items():
-                node = myobj.add_variable(namespace_idx, var_name, initial_value)
-                node.set_writable(True)
+                logger.debug(f"Processing variable: {var_name} with value {initial_value}")
+
+                # Await the addition of the variable
+                node = await myobj.add_variable(namespace_idx, var_name, initial_value)
+                logger.debug(f"Added variable node: {node}")
+
+                # Set the variable to be writable
+                await node.set_writable(True)
                 logger.info(f"Added variable {var_name} with value {initial_value}")
         except Exception as e:
             logger.error(f"Error adding namespace and variables: {str(e)}")

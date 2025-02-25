@@ -1,0 +1,10 @@
+2025-02-25 22:52:56,754 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:52:56,761 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:52:56,761 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-25 22:53:08,078 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:53:08,083 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:53:08,084 - app.routes.config - INFO - Received config request: namespace_uri=example_namespace_uri, variables={'variable1': 123, 'variable2': 'example_value', 'variable3': True}
+2025-02-25 22:53:08,089 - app.utils.opcua_client - ERROR - Error adding namespace and variables: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:53:08,089 - app.routes.config - ERROR - Error adding configuration: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:56:34,314 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-25 22:56:34,314 - app.main - INFO - Successfully disconnected from OPCUA server

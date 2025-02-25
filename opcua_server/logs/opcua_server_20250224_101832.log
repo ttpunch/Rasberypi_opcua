@@ -1,8 +1,0 @@
-2025-02-24 10:18:32,546 - __main__ - INFO - Starting OPCUA server at opc.tcp://0.0.0.0:4840
-2025-02-24 10:18:33,454 - __main__ - INFO - Namespace http://example.com/opcua/server registered with index 2
-2025-02-24 10:18:33,456 - __main__ - INFO - Added variable variable1 with value 0
-2025-02-24 10:18:33,457 - __main__ - INFO - Added variable variable2 with value initial_state
-2025-02-24 10:18:34,459 - __main__ - ERROR - Error setting up OPCUA server: [Errno 13] error while attempting to bind on address ('0.0.0.0', 4840): an attempt was made to access a socket in a way forbidden by its access permissions
-2025-02-24 10:18:34,461 - __main__ - ERROR - Server error: [Errno 13] error while attempting to bind on address ('0.0.0.0', 4840): an attempt was made to access a socket in a way forbidden by its access permissions
-2025-02-24 10:18:34,465 - __main__ - INFO - Stopping OPCUA server
-2025-02-24 10:18:34,465 - __main__ - INFO - Server stopped

@@ -1,0 +1,17 @@
+2025-02-25 22:56:34,577 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:56:34,581 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:56:34,581 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-25 22:56:51,540 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:56:51,543 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 22:56:51,544 - app.routes.config - INFO - Received config request: namespace_uri=example_namespace_uri, variables={'variable1': 123, 'variable2': 'example_value', 'variable3': True}
+2025-02-25 22:56:51,544 - app.utils.opcua_client - INFO - Namespace index: 2
+2025-02-25 22:56:51,545 - app.utils.opcua_client - INFO - objects: i=85
+2025-02-25 22:56:51,545 - app.utils.opcua_client - ERROR - Error adding namespace and variables: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:56:51,546 - app.routes.config - ERROR - Error adding configuration: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:56:52,761 - app.routes.config - INFO - Received config request: namespace_uri=example_namespace_uri, variables={'variable1': 123, 'variable2': 'example_value', 'variable3': True}
+2025-02-25 22:56:52,762 - app.utils.opcua_client - INFO - Namespace index: 2
+2025-02-25 22:56:52,762 - app.utils.opcua_client - INFO - objects: i=85
+2025-02-25 22:56:52,763 - app.utils.opcua_client - ERROR - Error adding namespace and variables: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:56:52,763 - app.routes.config - ERROR - Error adding configuration: User does not have permission to perform the requested operation.(BadUserAccessDenied)
+2025-02-25 22:57:09,135 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-25 22:57:09,135 - app.main - INFO - Successfully disconnected from OPCUA server

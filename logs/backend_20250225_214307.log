@@ -1,0 +1,519 @@
+2025-02-25 21:43:07,587 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:07,596 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:07,596 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-25 21:43:18,599 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:43:18,600 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:18,604 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:18,607 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:18,610 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:43:18,610 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:43:18,618 - app.routes.data - INFO - Retrieved data: {'variable1': 0, 'variable2': 'initial_state', 'Temperature': 20.23925289514435}
+2025-02-25 21:43:19,112 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 0}
+2025-02-25 21:43:19,112 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:43:19,113 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.23925289514435}
+2025-02-25 21:43:19,611 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.805302056193348}
+2025-02-25 21:43:20,611 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.42249543319106}
+2025-02-25 21:43:21,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.923757436746056}
+2025-02-25 21:43:22,611 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.626063319418137}
+2025-02-25 21:43:23,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.148983397428154}
+2025-02-25 21:43:24,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.55991224909012}
+2025-02-25 21:43:25,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.35452325308052}
+2025-02-25 21:43:26,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.541294356562233}
+2025-02-25 21:43:27,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.564303921651778}
+2025-02-25 21:43:28,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.122617935156622}
+2025-02-25 21:43:29,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.970613705545283}
+2025-02-25 21:43:30,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.815808423971808}
+2025-02-25 21:43:31,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.429041269101884}
+2025-02-25 21:43:32,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.733174552903957}
+2025-02-25 21:43:33,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.244254853418813}
+2025-02-25 21:43:34,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.091606249651786}
+2025-02-25 21:43:35,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.61571022299675}
+2025-02-25 21:43:36,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.46892252967914}
+2025-02-25 21:43:37,536 - app.routes.data - INFO - Updated variable1 to value: 212
+2025-02-25 21:43:37,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.362756655227532}
+2025-02-25 21:43:37,612 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:43:38,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.924427878104586}
+2025-02-25 21:43:39,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.131159086388294}
+2025-02-25 21:43:40,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.32392041794634}
+2025-02-25 21:43:41,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.138419716167768}
+2025-02-25 21:43:42,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.830197530363193}
+2025-02-25 21:43:43,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.876015460195724}
+2025-02-25 21:43:44,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.38058638029546}
+2025-02-25 21:43:45,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.77469267637752}
+2025-02-25 21:43:46,614 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.22974440663254}
+2025-02-25 21:43:47,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.737937855448987}
+2025-02-25 21:43:48,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.103837124649978}
+2025-02-25 21:43:49,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.779672581057284}
+2025-02-25 21:43:50,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.771698656358755}
+2025-02-25 21:43:51,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.794617469046226}
+2025-02-25 21:43:52,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.99130513614029}
+2025-02-25 21:43:53,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.93010710777191}
+2025-02-25 21:43:54,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.497362834267804}
+2025-02-25 21:43:55,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.01768278447712}
+2025-02-25 21:43:56,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.428295416195734}
+2025-02-25 21:43:57,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.44363569112545}
+2025-02-25 21:43:58,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.616956083306718}
+2025-02-25 21:43:59,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.343506152456477}
+2025-02-25 21:44:00,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.54118664066072}
+2025-02-25 21:44:01,612 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.231544971288924}
+2025-02-25 21:44:02,613 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.913084194915943}
+2025-02-25 21:44:03,614 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:44:03,656 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:44:08,287 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:44:08,289 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:44:08,791 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:44:08,791 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:44:08,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.616517507322904}
+2025-02-25 21:44:08,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.665247918803193}
+2025-02-25 21:44:09,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.14104554363075}
+2025-02-25 21:44:10,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.586221608229287}
+2025-02-25 21:44:11,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.242337344037576}
+2025-02-25 21:44:12,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.881294796070474}
+2025-02-25 21:44:13,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.565914398338908}
+2025-02-25 21:44:14,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.744774956877816}
+2025-02-25 21:44:15,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.87714810911139}
+2025-02-25 21:44:16,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.034192026724682}
+2025-02-25 21:44:17,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.57355156449737}
+2025-02-25 21:44:18,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.858293734553918}
+2025-02-25 21:44:19,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.1275160368101}
+2025-02-25 21:44:20,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.63638034083185}
+2025-02-25 21:44:21,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.48877376282536}
+2025-02-25 21:44:22,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.946548739456944}
+2025-02-25 21:44:23,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.535317158589656}
+2025-02-25 21:44:24,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.08672209148174}
+2025-02-25 21:44:25,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.110743484748816}
+2025-02-25 21:44:26,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.354522199781327}
+2025-02-25 21:44:27,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.679216638630717}
+2025-02-25 21:44:28,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.275667518824555}
+2025-02-25 21:44:29,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.317049033952443}
+2025-02-25 21:44:30,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.66739385955928}
+2025-02-25 21:44:31,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.765068993267885}
+2025-02-25 21:44:32,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.012961313491616}
+2025-02-25 21:44:33,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.78286892982063}
+2025-02-25 21:44:34,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.37867066412666}
+2025-02-25 21:44:35,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.156575189394943}
+2025-02-25 21:44:36,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.064358627982198}
+2025-02-25 21:44:37,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.672450987426117}
+2025-02-25 21:44:38,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.549991596710424}
+2025-02-25 21:44:39,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.15306624876911}
+2025-02-25 21:44:40,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.048955166104747}
+2025-02-25 21:44:41,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.766069815846123}
+2025-02-25 21:44:42,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.833030620211208}
+2025-02-25 21:44:43,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.960703250160165}
+2025-02-25 21:44:44,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.46537856666902}
+2025-02-25 21:44:45,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.33369314336571}
+2025-02-25 21:44:46,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.035250093968415}
+2025-02-25 21:44:47,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.515252822238885}
+2025-02-25 21:44:48,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.908296722375464}
+2025-02-25 21:44:49,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.90911162913438}
+2025-02-25 21:44:50,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.028456910760582}
+2025-02-25 21:44:51,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.50256795328387}
+2025-02-25 21:44:52,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.59026526440487}
+2025-02-25 21:44:53,792 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.69526810205859}
+2025-02-25 21:44:54,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.65481878331977}
+2025-02-25 21:44:55,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.987888325961244}
+2025-02-25 21:44:56,791 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.446016864952973}
+2025-02-25 21:44:57,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.09762181820612}
+2025-02-25 21:44:58,790 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.547101724097665}
+2025-02-25 21:44:58,879 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:44:58,886 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:44:58,893 - app.routes.data - INFO - Retrieved data: {'variable1': 212, 'variable2': 'initial_state', 'Temperature': 16.547101724097665}
+2025-02-25 21:44:58,901 - app.routes.data - INFO - Retrieved data: {'variable1': 212, 'variable2': 'initial_state', 'Temperature': 16.547101724097665}
+2025-02-25 21:44:59,389 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:44:59,389 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:44:59,390 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.547101724097665}
+2025-02-25 21:44:59,790 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:44:59,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.99234349104474}
+2025-02-25 21:45:00,344 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:45:00,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.24154381210864}
+2025-02-25 21:45:01,887 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.590349865434145}
+2025-02-25 21:45:02,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.300981874758538}
+2025-02-25 21:45:03,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.97377271016305}
+2025-02-25 21:45:04,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.80004620405315}
+2025-02-25 21:45:05,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.751386862010783}
+2025-02-25 21:45:06,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.04976756790336}
+2025-02-25 21:45:07,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.592193065258492}
+2025-02-25 21:45:08,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.13530493729904}
+2025-02-25 21:45:09,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.68858335208846}
+2025-02-25 21:45:10,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.063849667461874}
+2025-02-25 21:45:11,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.431003411567183}
+2025-02-25 21:45:12,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.384394262877901}
+2025-02-25 21:45:13,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.59011750000306}
+2025-02-25 21:45:14,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.275970203805684}
+2025-02-25 21:45:15,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.677140950008475}
+2025-02-25 21:45:16,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.392361091603576}
+2025-02-25 21:45:17,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.90626960593916}
+2025-02-25 21:45:18,887 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.60730180049326}
+2025-02-25 21:45:19,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.9697623168975}
+2025-02-25 21:45:20,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.79693500267381}
+2025-02-25 21:45:21,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.13085882280905}
+2025-02-25 21:45:22,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.857671218790202}
+2025-02-25 21:45:23,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.781445902585002}
+2025-02-25 21:45:24,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.60862055461481}
+2025-02-25 21:45:25,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.699372299358195}
+2025-02-25 21:45:26,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.975992736901105}
+2025-02-25 21:45:27,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.85080089895377}
+2025-02-25 21:45:28,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.990709005073576}
+2025-02-25 21:45:29,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.58164288230673}
+2025-02-25 21:45:30,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.190030534356996}
+2025-02-25 21:45:31,890 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.238398040417326}
+2025-02-25 21:45:32,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.566764655751015}
+2025-02-25 21:45:33,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.09117344623334}
+2025-02-25 21:45:34,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.103477742297276}
+2025-02-25 21:45:35,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.295687829347706}
+2025-02-25 21:45:36,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.502824643395982}
+2025-02-25 21:45:37,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.513725895994583}
+2025-02-25 21:45:38,889 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.696200281691052}
+2025-02-25 21:45:39,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.875318829877504}
+2025-02-25 21:45:40,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.954652172058918}
+2025-02-25 21:45:41,887 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.803646557150415}
+2025-02-25 21:45:42,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.814730163390223}
+2025-02-25 21:45:43,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.392029625139408}
+2025-02-25 21:45:44,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.011255067444306}
+2025-02-25 21:45:45,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.6139021762182}
+2025-02-25 21:45:46,887 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.857209790604728}
+2025-02-25 21:45:47,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.091676308427267}
+2025-02-25 21:45:48,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.995368019622763}
+2025-02-25 21:45:49,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.75747232946938}
+2025-02-25 21:45:50,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.351141285514977}
+2025-02-25 21:45:51,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.714667655284646}
+2025-02-25 21:45:52,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.08531460160512}
+2025-02-25 21:45:53,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.02121129049117}
+2025-02-25 21:45:54,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.23365461706443}
+2025-02-25 21:45:55,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.306326770000844}
+2025-02-25 21:45:56,888 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.914885233169635}
+2025-02-25 21:45:57,353 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:45:57,359 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:45:57,366 - app.routes.data - INFO - Retrieved data: {'variable1': 212, 'variable2': 'initial_state', 'Temperature': 16.914885233169635}
+2025-02-25 21:45:57,861 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:45:57,861 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:45:57,862 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.914885233169635}
+2025-02-25 21:45:57,862 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.344707809549675}
+2025-02-25 21:45:57,888 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:45:57,938 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:45:58,861 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.221651611246642}
+2025-02-25 21:45:59,861 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.196445806179042}
+2025-02-25 21:46:00,861 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:46:01,368 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:46:04,922 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:46:04,923 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:46:05,426 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:46:05,427 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:46:05,427 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.256279966047714}
+2025-02-25 21:46:05,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.697394263745089}
+2025-02-25 21:46:06,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.977329934409994}
+2025-02-25 21:46:07,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.778103467694855}
+2025-02-25 21:46:08,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.43297871917281}
+2025-02-25 21:46:09,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.317635205274023}
+2025-02-25 21:46:10,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.42846713487332}
+2025-02-25 21:46:11,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.946876705020486}
+2025-02-25 21:46:12,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.272838097863634}
+2025-02-25 21:46:13,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.917627150755497}
+2025-02-25 21:46:14,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.254081892638474}
+2025-02-25 21:46:15,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.63555496016034}
+2025-02-25 21:46:16,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.320370687386337}
+2025-02-25 21:46:17,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.214969420594635}
+2025-02-25 21:46:18,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.165374287886156}
+2025-02-25 21:46:19,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.921994211831793}
+2025-02-25 21:46:20,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.34531680857172}
+2025-02-25 21:46:21,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.29570094394868}
+2025-02-25 21:46:22,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.12640454742238}
+2025-02-25 21:46:23,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.39075835548854}
+2025-02-25 21:46:24,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.933591324316172}
+2025-02-25 21:46:25,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.626301168752335}
+2025-02-25 21:46:26,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.86394228372338}
+2025-02-25 21:46:27,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.54714221326683}
+2025-02-25 21:46:28,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.79396219527606}
+2025-02-25 21:46:29,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.37136606286294}
+2025-02-25 21:46:30,923 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.613137869033693}
+2025-02-25 21:46:31,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.397162514065478}
+2025-02-25 21:46:32,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.94547376900717}
+2025-02-25 21:46:33,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.780882635580635}
+2025-02-25 21:46:34,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.504875346527772}
+2025-02-25 21:46:35,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.33639180889647}
+2025-02-25 21:46:36,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.03559848746706}
+2025-02-25 21:46:37,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.78013808173457}
+2025-02-25 21:46:38,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.588989055300996}
+2025-02-25 21:46:39,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.758216535009794}
+2025-02-25 21:46:40,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.73057236000207}
+2025-02-25 21:46:41,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.722849041343007}
+2025-02-25 21:46:42,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.305854856846867}
+2025-02-25 21:46:43,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.69644288294538}
+2025-02-25 21:46:44,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.240368923333655}
+2025-02-25 21:46:45,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.178530712981924}
+2025-02-25 21:46:46,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.003799463371067}
+2025-02-25 21:46:47,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.256542179204587}
+2025-02-25 21:46:48,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.271029652769005}
+2025-02-25 21:46:49,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.8577042008694}
+2025-02-25 21:46:50,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.380333030593654}
+2025-02-25 21:46:51,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.43597495561557}
+2025-02-25 21:46:52,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.642882714585674}
+2025-02-25 21:46:53,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.957215528130845}
+2025-02-25 21:46:54,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.171597685273426}
+2025-02-25 21:46:55,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.486839218718078}
+2025-02-25 21:46:56,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.30548822557016}
+2025-02-25 21:46:57,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.555429675387}
+2025-02-25 21:46:58,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.320647070875538}
+2025-02-25 21:46:59,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.318723198627808}
+2025-02-25 21:47:00,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.893202024194128}
+2025-02-25 21:47:01,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.970708444979373}
+2025-02-25 21:47:02,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.188997490947866}
+2025-02-25 21:47:03,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.89575338149232}
+2025-02-25 21:47:04,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.501120134814784}
+2025-02-25 21:47:05,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.189821915387984}
+2025-02-25 21:47:06,926 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.949291096052946}
+2025-02-25 21:47:07,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.076570026483267}
+2025-02-25 21:47:08,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.43276470957733}
+2025-02-25 21:47:09,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.086210292307214}
+2025-02-25 21:47:10,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.27841550485509}
+2025-02-25 21:47:11,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.011268544181483}
+2025-02-25 21:47:12,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.80158652930814}
+2025-02-25 21:47:13,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.480711704826547}
+2025-02-25 21:47:14,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.29776865107039}
+2025-02-25 21:47:15,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.436195872777112}
+2025-02-25 21:47:16,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.67084574508931}
+2025-02-25 21:47:17,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.681505115097657}
+2025-02-25 21:47:18,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.57699762879934}
+2025-02-25 21:47:19,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.148056525881863}
+2025-02-25 21:47:20,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.580651937393329}
+2025-02-25 21:47:21,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.783313591004212}
+2025-02-25 21:47:22,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.315037504686796}
+2025-02-25 21:47:23,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.027161981790908}
+2025-02-25 21:47:24,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.215736022676452}
+2025-02-25 21:47:25,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.266131379484188}
+2025-02-25 21:47:26,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.187452385279663}
+2025-02-25 21:47:27,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.551801775450983}
+2025-02-25 21:47:28,924 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.631161405179256}
+2025-02-25 21:47:29,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.912829380814475}
+2025-02-25 21:47:30,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.517808158401866}
+2025-02-25 21:47:31,925 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.875704950538868}
+2025-02-25 21:47:32,925 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:47:32,988 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:49:23,393 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:49:23,402 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 21:49:23,403 - app.routes.config - INFO - Received config request: namespace_uri=vinod, variables={}
+2025-02-25 21:49:23,405 - app.routes.config - INFO - Added/updated namespace vinod with variables: {}
+2025-02-25 21:49:39,309 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:49:39,321 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:49:39,324 - app.routes.data - INFO - Retrieved data: {'variable1': 212, 'variable2': 'initial_state', 'Temperature': 19.96757783830613}
+2025-02-25 21:49:39,328 - app.routes.data - INFO - Retrieved data: {'variable1': 212, 'variable2': 'initial_state', 'Temperature': 19.96757783830613}
+2025-02-25 21:49:39,823 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 212}
+2025-02-25 21:49:39,823 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:49:39,823 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.96757783830613}
+2025-02-25 21:49:39,823 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.10624465938284}
+2025-02-25 21:49:40,823 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.695275678667397}
+2025-02-25 21:49:41,823 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:49:42,328 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:49:53,579 - app.routes.config - INFO - Attempting to retrieve configuration from OPC UA server.
+2025-02-25 21:49:53,584 - app.utils.opcua_client - ERROR - Error retrieving config: 'coroutine' object has no attribute 'get_child'
+2025-02-25 21:49:53,585 - app.routes.config - ERROR - Unexpected error retrieving config: 'coroutine' object has no attribute 'get_child'
+2025-02-25 21:53:59,317 - app.routes.data - INFO - Updated variable1 to value: 10
+2025-02-25 21:54:01,931 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:01,938 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:01,943 - app.routes.data - INFO - Retrieved data: {'variable1': 10, 'variable2': 'initial_state', 'Temperature': 22.66863372038399}
+2025-02-25 21:54:01,950 - app.routes.data - INFO - Retrieved data: {'variable1': 10, 'variable2': 'initial_state', 'Temperature': 22.66863372038399}
+2025-02-25 21:54:02,440 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 10}
+2025-02-25 21:54:02,440 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:54:02,440 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.66863372038399}
+2025-02-25 21:54:02,440 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.81949523645996}
+2025-02-25 21:54:03,441 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.989295499791428}
+2025-02-25 21:54:04,441 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.93373469801841}
+2025-02-25 21:54:04,683 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:04,688 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:04,696 - app.routes.data - INFO - Retrieved data: {'variable1': 10, 'variable2': 'initial_state', 'Temperature': 17.93373469801841}
+2025-02-25 21:54:05,190 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 10}
+2025-02-25 21:54:05,190 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:54:05,190 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.93373469801841}
+2025-02-25 21:54:05,191 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.66840790592663}
+2025-02-25 21:54:05,440 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:54:05,949 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:54:06,190 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.90149820654826}
+2025-02-25 21:54:07,190 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:54:07,697 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:54:11,309 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:11,310 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:11,812 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 10}
+2025-02-25 21:54:11,812 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'initial_state'}
+2025-02-25 21:54:11,812 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.783638098087508}
+2025-02-25 21:54:12,312 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.808151866132285}
+2025-02-25 21:54:13,312 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.806265636262527}
+2025-02-25 21:54:14,312 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.53757083912653}
+2025-02-25 21:54:15,314 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.696014022243876}
+2025-02-25 21:54:16,312 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.785707652649567}
+2025-02-25 21:54:17,312 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.785630324042632}
+2025-02-25 21:54:17,757 - app.routes.data - INFO - Updated variable2 to value: ddfdfdfdf
+2025-02-25 21:54:17,812 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:54:18,311 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.246549945606958}
+2025-02-25 21:54:19,311 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.47917519787338}
+2025-02-25 21:54:19,423 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:19,427 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:19,434 - app.routes.data - INFO - Retrieved data: {'variable1': 10, 'variable2': 'ddfdfdfdf', 'Temperature': 21.47917519787338}
+2025-02-25 21:54:19,441 - app.routes.data - INFO - Retrieved data: {'variable1': 10, 'variable2': 'ddfdfdfdf', 'Temperature': 21.47917519787338}
+2025-02-25 21:54:19,929 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 10}
+2025-02-25 21:54:19,929 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:54:19,929 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.47917519787338}
+2025-02-25 21:54:20,311 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:54:20,314 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:54:20,429 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.024706963839005}
+2025-02-25 21:54:21,429 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.07765650276572}
+2025-02-25 21:54:22,430 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.95470193900715}
+2025-02-25 21:54:23,430 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.611654601006855}
+2025-02-25 21:54:24,429 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.98204701363678}
+2025-02-25 21:54:25,429 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:54:25,436 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:54:29,455 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:29,458 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:29,960 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 10}
+2025-02-25 21:54:29,960 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:54:29,960 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.467590215719746}
+2025-02-25 21:54:30,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.75841892275227}
+2025-02-25 21:54:31,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.092418755118246}
+2025-02-25 21:54:32,459 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.114682957537799}
+2025-02-25 21:54:33,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.509820701460434}
+2025-02-25 21:54:34,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.06501865930795}
+2025-02-25 21:54:35,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.879136927425883}
+2025-02-25 21:54:36,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.960995082998295}
+2025-02-25 21:54:37,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.72087381022896}
+2025-02-25 21:54:38,462 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.594952795232444}
+2025-02-25 21:54:39,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.395841859845664}
+2025-02-25 21:54:40,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.554502402594792}
+2025-02-25 21:54:41,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.71834689444694}
+2025-02-25 21:54:42,462 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.991067587821055}
+2025-02-25 21:54:43,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.584749250350963}
+2025-02-25 21:54:44,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.51300069763061}
+2025-02-25 21:54:45,459 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.25338079719718}
+2025-02-25 21:54:46,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.763906645998183}
+2025-02-25 21:54:47,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.68585925444778}
+2025-02-25 21:54:48,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.198002643918633}
+2025-02-25 21:54:49,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.80661220595293}
+2025-02-25 21:54:50,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.682945021766034}
+2025-02-25 21:54:51,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.71564683874656}
+2025-02-25 21:54:52,461 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.406131090579912}
+2025-02-25 21:54:53,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.258539424979908}
+2025-02-25 21:54:54,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.770733619486997}
+2025-02-25 21:54:55,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.423105710507652}
+2025-02-25 21:54:56,110 - app.routes.data - INFO - Updated variable1 to value: 4545
+2025-02-25 21:54:56,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.640081398893322}
+2025-02-25 21:54:56,460 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 4545}
+2025-02-25 21:54:57,460 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.60183825857176}
+2025-02-25 21:54:58,063 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:54:58,067 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:54:58,070 - app.routes.data - INFO - Retrieved data: {'variable1': 4545, 'variable2': 'ddfdfdfdf', 'Temperature': 22.60183825857176}
+2025-02-25 21:54:58,076 - app.routes.data - INFO - Retrieved data: {'variable1': 4545, 'variable2': 'ddfdfdfdf', 'Temperature': 22.60183825857176}
+2025-02-25 21:54:58,460 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:54:58,475 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:54:58,569 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 4545}
+2025-02-25 21:54:58,569 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:54:58,569 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.60183825857176}
+2025-02-25 21:54:58,570 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.479648818482794}
+2025-02-25 21:54:59,569 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.203205535422716}
+2025-02-25 21:55:00,569 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.535751594137334}
+2025-02-25 21:55:01,569 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:55:02,072 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:55:03,060 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:55:03,061 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:55:03,564 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 4545}
+2025-02-25 21:55:03,564 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:55:03,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.96964363585238}
+2025-02-25 21:55:03,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.135433545393479}
+2025-02-25 21:55:04,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.463834907015247}
+2025-02-25 21:55:05,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.890511856386954}
+2025-02-25 21:55:06,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.96946480095146}
+2025-02-25 21:55:07,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.941531023675648}
+2025-02-25 21:55:08,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.395741568746544}
+2025-02-25 21:55:09,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.768589750470298}
+2025-02-25 21:55:10,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.24371542200296}
+2025-02-25 21:55:11,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.115262640383165}
+2025-02-25 21:55:12,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.68164058288818}
+2025-02-25 21:55:13,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.15793059927944}
+2025-02-25 21:55:14,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.71809844242678}
+2025-02-25 21:55:15,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.30226339621839}
+2025-02-25 21:55:16,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.11018880014847}
+2025-02-25 21:55:17,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.588506732366117}
+2025-02-25 21:55:18,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.42873610563946}
+2025-02-25 21:55:19,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.856159779868154}
+2025-02-25 21:55:20,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.269234336959695}
+2025-02-25 21:55:21,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.731181052393794}
+2025-02-25 21:55:22,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.42479333768055}
+2025-02-25 21:55:23,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.936937188287047}
+2025-02-25 21:55:24,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.088454035923352}
+2025-02-25 21:55:25,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.664968448434742}
+2025-02-25 21:55:26,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.050467689326585}
+2025-02-25 21:55:27,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.011502115137603}
+2025-02-25 21:55:28,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.269506973653225}
+2025-02-25 21:55:29,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.75967526405433}
+2025-02-25 21:55:30,562 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.398763090069046}
+2025-02-25 21:55:31,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.847949057210382}
+2025-02-25 21:55:32,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.351776480568425}
+2025-02-25 21:55:33,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.112351002551065}
+2025-02-25 21:55:34,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.226752457130633}
+2025-02-25 21:55:35,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.03671394188251}
+2025-02-25 21:55:36,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.25308989703246}
+2025-02-25 21:55:37,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.14442462185555}
+2025-02-25 21:55:38,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.03881578817567}
+2025-02-25 21:55:39,565 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.94112875392095}
+2025-02-25 21:55:40,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.008172546448613}
+2025-02-25 21:55:41,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.528545277804028}
+2025-02-25 21:55:42,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.518061932961423}
+2025-02-25 21:55:43,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.01345812849378}
+2025-02-25 21:55:44,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.3268179253957}
+2025-02-25 21:55:45,563 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.92705677009791}
+2025-02-25 21:55:46,564 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.135260305145785}
+2025-02-25 21:55:47,506 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:55:47,513 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:55:47,516 - app.routes.data - INFO - Retrieved data: {'variable1': 4545, 'variable2': 'ddfdfdfdf', 'Temperature': 24.203642180424453}
+2025-02-25 21:55:47,523 - app.routes.data - INFO - Retrieved data: {'variable1': 4545, 'variable2': 'ddfdfdfdf', 'Temperature': 24.203642180424453}
+2025-02-25 21:55:47,563 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:55:48,015 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 4545}
+2025-02-25 21:55:48,015 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:55:48,015 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.203642180424453}
+2025-02-25 21:55:48,107 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:55:48,515 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 24.851126790615083}
+2025-02-25 21:55:49,515 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:55:49,516 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:55:52,505 - app.routes.websocket - INFO - WebSocket connection established
+2025-02-25 21:55:52,507 - app.utils.opcua_client - INFO - Created OPCUA subscription
+2025-02-25 21:55:53,010 - app.routes.websocket - INFO - Sent WebSocket update: {'variable1': 4545}
+2025-02-25 21:55:53,010 - app.routes.websocket - INFO - Sent WebSocket update: {'variable2': 'ddfdfdfdf'}
+2025-02-25 21:55:53,011 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.179713566120235}
+2025-02-25 21:55:53,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.731462498929275}
+2025-02-25 21:55:54,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.729904648413903}
+2025-02-25 21:55:55,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.640844706897084}
+2025-02-25 21:55:56,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.580269259902803}
+2025-02-25 21:55:57,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.501031616539475}
+2025-02-25 21:55:58,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.363715626258053}
+2025-02-25 21:55:59,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.799897787776416}
+2025-02-25 21:56:00,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.548071375064033}
+2025-02-25 21:56:01,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.54147421302913}
+2025-02-25 21:56:02,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.649279690633193}
+2025-02-25 21:56:03,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.552107960656336}
+2025-02-25 21:56:04,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.088046522462147}
+2025-02-25 21:56:05,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.76655017009024}
+2025-02-25 21:56:06,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.43983091341994}
+2025-02-25 21:56:07,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.70548731096214}
+2025-02-25 21:56:08,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 23.499815243023242}
+2025-02-25 21:56:09,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.227533593685806}
+2025-02-25 21:56:10,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.053460386611786}
+2025-02-25 21:56:11,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.109599232919567}
+2025-02-25 21:56:12,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.442576764991397}
+2025-02-25 21:56:13,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.317996495476102}
+2025-02-25 21:56:14,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.08508791678205}
+2025-02-25 21:56:15,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 22.694166362324097}
+2025-02-25 21:56:16,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.00216949023792}
+2025-02-25 21:56:17,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.8358115738771}
+2025-02-25 21:56:18,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 15.701424581789375}
+2025-02-25 21:56:19,510 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.412469306749415}
+2025-02-25 21:56:20,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.748002917742784}
+2025-02-25 21:56:21,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 21.244506449288835}
+2025-02-25 21:56:22,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 20.405121620850682}
+2025-02-25 21:56:23,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 19.291967527693306}
+2025-02-25 21:56:24,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.9463595428601}
+2025-02-25 21:56:25,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.375991080594602}
+2025-02-25 21:56:26,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 18.089727690436888}
+2025-02-25 21:56:27,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 16.450931305427968}
+2025-02-25 21:56:28,509 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.620657563265954}
+2025-02-25 21:56:29,508 - app.routes.websocket - INFO - Sent WebSocket update: {'Temperature': 17.57673255743032}
+2025-02-25 21:56:30,508 - app.routes.websocket - ERROR - Error in datachange_notification: 
+2025-02-25 21:56:30,530 - app.routes.websocket - INFO - Subscription deleted
+2025-02-25 21:56:30,575 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-25 21:56:30,575 - app.main - INFO - Successfully disconnected from OPCUA server
