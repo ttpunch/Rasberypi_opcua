@@ -1,78 +1,152 @@
-from fastapi import APIRouter, HTTPException, FastAPI, status
-from opcua import ua
-from app.config import settings  # Assumed to provide OPCUA_URL and NAMESPACE_URI
+from fastapi import APIRouter, HTTPException, FastAPI, status, Depends
+from asyncua import ua
+from app.config import settings
 from app.utils.opcua_client import OPCUAClient
 from app.utils.logger import get_logger
-from app.models.config import ConfigRequest, ConfigResponse
-from typing import Dict
+from app.models.config import ConfigRequest, ConfigResponse, NamespaceConfig, VariableConfig
+from typing import Union, Dict, Any, Optional
+from pydantic import BaseModel
+from asyncua.common.node import Node
 
 # Initialize logger and router
 logger = get_logger(__name__)
 router = APIRouter()
 
+# Standard health check response model
+class HealthCheckResponse(BaseModel):
+    status: str
+    opcua_connected: bool
+    message: str
+
 # Initialize OPC UA client with settings
 opcua_client = OPCUAClient(settings.OPCUA_URL, settings.NAMESPACE_URI)
 
+# Dependency to get OPC UA client and handle connection
+async def get_connected_client() -> OPCUAClient:
+    """Ensure OPC UA client is connected before processing request."""
+    if opcua_client.client is None:
+        try:
+            await opcua_client.connect()
+        except Exception as e:
+            logger.error(f"Failed to connect to OPC UA server: {str(e)}")
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail="OPC UA client is not connected."
+            )
+    return opcua_client
+
 # API Routes
 @router.get("", response_model=ConfigResponse)
-async def get_config():
+async def get_config(client: OPCUAClient = Depends(get_connected_client)):
     """Retrieve the current configuration from the OPC UA server."""
-    if not opcua_client.client:
-        logger.error("OPC UA client is not connected.")
-        raise HTTPException(status_code=503, detail="OPC UA client is not connected.")
     try:
         logger.info("Attempting to retrieve configuration from OPC UA server.")
-        config = await opcua_client.get_config()
+        
+        # Get the namespace index and objects node
+        namespace_idx = await client.get_namespace_index()
+        objects_node = client.client.get_objects_node()  # Removed await
+        
+        # Assuming you want to return some configuration details
+        # You need to replace this with actual logic to retrieve configuration
+        config = {"namespace_idx": namespace_idx, "objects_node": str(objects_node)}
+        
         logger.info(f"Retrieved config: {config}")
         return ConfigResponse(status="success", config=config)
-    except ua.UaStatusCodeError as e:
-        logger.error(f"OPC UA error retrieving config: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"OPC UA error: {str(e)}")
     except Exception as e:
-        logger.error(f"Unexpected error retrieving config: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
-
+        logger.error(f"Error retrieving configuration: {str(e)}")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
 @router.post("", response_model=ConfigResponse)
-async def add_config(request: ConfigRequest):
+async def add_config(request: ConfigRequest, client: OPCUAClient = Depends(get_connected_client)):
     """Add or update a namespace and its variables on the OPC UA server."""
-    if not opcua_client.client:
-        logger.error("OPC UA client is not connected.")
-        raise HTTPException(status_code=503, detail="OPC UA client is not connected.")
     try:
-        await opcua_client.add_namespace_and_variables(request.namespace_uri, request.variables)
+        # Log the incoming request for debugging
+        logger.info(f"Received config request: namespace_uri={request.namespace_uri}, variables={request.variables}")
+        
+        # Add explicit validation for common issues that might cause 422 errors
+        if not request.namespace_uri:
+            raise HTTPException(
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail="namespace_uri cannot be empty"
+            )
+        
+        if not isinstance(request.variables, dict):
+            raise HTTPException(
+                status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                detail="variables must be a dictionary"
+            )
+        
+        # Ensure the method is awaited if it's asynchronous
+        await client.add_namespace_and_variables(request.namespace_uri, request.variables)
         logger.info(f"Added/updated namespace {request.namespace_uri} with variables: {request.variables}")
         return ConfigResponse(status="success", config=request.variables)
+    except HTTPException:
+        raise  # Re-raise HTTP exceptions
+    except AttributeError as e:
+        logger.error(f"Attribute error: {str(e)}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Attribute error: {str(e)}"
+        )
     except Exception as e:
         logger.error(f"Error adding configuration: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
 
-@router.get("/health", response_model=Dict[str, str | bool])
+@router.get("/namespaces", response_model=Dict[str, Any])
+async def get_namespaces(client: OPCUAClient = Depends(get_connected_client)):
+    """Get all available namespaces on the server."""
+    try:
+        namespaces = await client.client.get_namespace_array()
+        return {"namespaces": namespaces}
+    except Exception as e:
+        logger.error(f"Error getting namespaces: {str(e)}")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+
+@router.get("/health", response_model=HealthCheckResponse)
 async def health_check():
     """Check the health of the OPC UA connection."""
     try:
-        if not opcua_client.client:
-            return {
-                "status": "unhealthy",
-                "opcua_connected": False,
-                "message": "OPC UA client is not initialized."
-            }
-        # Test connection by fetching namespace index
-        await opcua_client.get_namespace_index()
-        return {
-            "status": "healthy",
-            "opcua_connected": True,
-            "message": "OPC UA client is connected and operational."
-        }
+        if opcua_client.client is None:
+            try:
+                # Attempt to connect if not connected
+                await opcua_client.connect()
+                # Test connection by fetching namespace index
+                await opcua_client.get_namespace_index()
+                return HealthCheckResponse(
+                    status="healthy",
+                    opcua_connected=True,
+                    message="OPC UA client is connected and operational."
+                )
+            except Exception as e:
+                logger.error(f"Failed to connect during health check: {str(e)}")
+                return HealthCheckResponse(
+                    status="unhealthy",
+                    opcua_connected=False,
+                    message=f"OPC UA connection failed: {str(e)}"
+                )
+        else:
+            # Test existing connection
+            await opcua_client.get_namespace_index()
+            return HealthCheckResponse(
+                status="healthy",
+                opcua_connected=True,
+                message="OPC UA client is connected and operational."
+            )
     except Exception as e:
         logger.error(f"Health check failed: {str(e)}")
-        return {
-            "status": "unhealthy",
-            "opcua_connected": False,
-            "message": str(e)
-        }
+        return HealthCheckResponse(
+            status="unhealthy",
+            opcua_connected=False,
+            message=str(e)
+        )
 
 # FastAPI Application Setup
-app = FastAPI(title="OPC UA Config API")
+app = FastAPI(
+    title="OPC UA Config API",
+    description="API for configuring OPC UA server variables",
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc"
+)
 
 @app.on_event("startup")
 async def startup_event():
@@ -83,7 +157,6 @@ async def startup_event():
     except Exception as e:
         logger.error(f"Failed to connect OPC UA client on startup: {str(e)}")
         # Don't raise here; let health check reflect the failure
-        opcua_client.client = None
 
 @app.on_event("shutdown")
 async def shutdown_event():
@@ -94,6 +167,18 @@ async def shutdown_event():
             logger.info("OPC UA client disconnected during shutdown.")
         except Exception as e:
             logger.error(f"Failed to disconnect OPC UA client on shutdown: {str(e)}")
+
+# Add route for explicit debug validation check
+@app.post("/validation_check", status_code=status.HTTP_200_OK)
+async def validation_check(request: ConfigRequest):
+    """Debug endpoint to validate request format without processing."""
+    return {
+        "message": "Request validation passed",
+        "request_data": {
+            "namespace_uri": request.namespace_uri,
+            "variables": request.variables
+        }
+    }
 
 # Mount the router with a prefix
 app.include_router(router, prefix="/config", tags=["config"])

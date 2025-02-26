@@ -1,0 +1,13 @@
+2025-02-25 23:11:36,328 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 23:11:36,333 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 23:11:36,333 - app.main - INFO - Successfully connected to OPCUA server
+2025-02-25 23:11:39,081 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 23:11:39,086 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
+2025-02-25 23:11:39,087 - app.routes.config - INFO - Received config request: namespace_uri=example_namespace_uri_sadasdas, variables={'variable1': 123, 'variable2': 'example_value', 'variable3': True}
+2025-02-25 23:11:39,089 - app.utils.opcua_client - INFO - Namespace index: 2
+2025-02-25 23:11:39,089 - app.utils.opcua_client - INFO - Objects node: i=85
+2025-02-25 23:11:39,089 - app.utils.opcua_client - INFO - Created object: <coroutine object Node.add_object at 0x112abbe40>
+2025-02-25 23:11:39,089 - app.utils.opcua_client - ERROR - Error adding namespace and variables: 'coroutine' object has no attribute 'add_variable'
+2025-02-25 23:11:39,089 - app.routes.config - ERROR - Attribute error: 'coroutine' object has no attribute 'add_variable'
+2025-02-25 23:12:45,138 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
+2025-02-25 23:12:45,138 - app.main - INFO - Successfully disconnected from OPCUA server

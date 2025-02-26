@@ -43,12 +43,35 @@ async def get_data():
 @router.post("/", response_description="Update data on OPCUA server")
 async def update_data(variable: str, value: Any):
     try:
-        await ensure_client_connected()  # Ensure client is connected
+        await ensure_client_connected()
         namespace_idx = await opcua_client.get_namespace_index()
-        node_id = f"ns={namespace_idx};s=MyObject.{variable}"
-        await opcua_client.write_value(node_id, value)
-        logger.info(f"Updated {variable} to value: {value}")
-        return {"status": "success", "message": f"Updated {variable} successfully"}
+        objects_node = await opcua_client.get_objects_node()
+        
+        try:
+            myobj = await objects_node.get_child([f"{namespace_idx}:MyObject"])
+            var_node = await myobj.get_child([f"{namespace_idx}:{variable}"])
+            
+            # Get current value to determine the correct type
+            current_value = await var_node.read_value()
+            
+            # Convert the input value to match the node's data type
+            try:
+                converted_value = type(current_value)(value)
+            except (ValueError, TypeError):
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Invalid value type. Expected {type(current_value).__name__}, got {type(value).__name__}"
+                )
+            
+            # Write the converted value
+            await var_node.write_value(converted_value)
+            logger.info(f"Updated {variable} to value: {converted_value}")
+            return {"status": "success", "message": f"Updated {variable} successfully"}
+        except HTTPException as he:
+            raise he
+        except Exception as e:
+            logger.error(f"Node not found or access denied: {str(e)}")
+            raise HTTPException(status_code=404, detail=f"Node not found or access denied: {str(e)}")
     except Exception as e:
         logger.error(f"Error updating data: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Failed to update data: {str(e)}")
