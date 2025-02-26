@@ -1,4 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket
+import asyncio
+import json
+from pathlib import Path
+
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import data, config, websocket
 from app.utils.opcua_client import OPCUAClient
@@ -25,15 +29,64 @@ app.include_router(data.router, prefix="/api/data", tags=["data"])
 app.include_router(config.router, prefix="/api/config", tags=["config"])
 app.include_router(websocket.router)
 
+# Add these variables at the top level
+connected_clients = set()
+variables_file = Path("/Users/vinod/Library/Mobile Documents/com~apple~CloudDocs/Coding/Rasberypi_opcua/opcua_server/variables_store.json")
+
+# Add these new functions
+async def broadcast_variables():
+    if not connected_clients:
+        return
+    
+    try:
+        with open(variables_file, 'r') as f:
+            variables = json.load(f)
+        
+        for client in connected_clients:
+            await client.send_json({"type": "variables_update", "data": variables})
+    except Exception as e:
+        logger.error(f"Error broadcasting variables: {e}")
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    connected_clients.add(websocket)
+    try:
+        while True:
+            await websocket.receive_text()  # Keep connection alive
+            # Send current variables
+            with open(variables_file, 'r') as f:
+                variables = json.load(f)
+            await websocket.send_json({"type": "variables_update", "data": variables})
+    except Exception as e:
+        logger.error(f"WebSocket error: {e}")
+    finally:
+        connected_clients.remove(websocket)
+
+# Modify startup event
 @app.on_event("startup")
 async def startup_event():
     try:
         await opcua_client.connect()
         logger.info("Successfully connected to OPCUA server")
+        
+        # Start background task to monitor variables file
+        asyncio.create_task(monitor_variables_file())
     except Exception as e:
         logger.error(f"Failed to connect to OPCUA server: {e}")
-        # Don't raise here, let the application start even if OPCUA server is not available
-        # Individual routes will handle connection errors
+
+# Add file monitoring
+async def monitor_variables_file():
+    last_modified = None
+    while True:
+        try:
+            current_modified = variables_file.stat().st_mtime
+            if last_modified != current_modified:
+                last_modified = current_modified
+                await broadcast_variables()
+        except Exception as e:
+            logger.error(f"Error monitoring variables file: {e}")
+        await asyncio.sleep(1)  # Check every second
 
 @app.on_event("shutdown")
 async def shutdown_event():

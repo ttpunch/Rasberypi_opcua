@@ -1,9 +1,0 @@
-2025-02-25 22:17:54,615 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
-2025-02-25 22:17:54,619 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
-2025-02-25 22:17:54,619 - app.main - INFO - Successfully connected to OPCUA server
-2025-02-25 22:18:14,118 - app.utils.opcua_client - INFO - Connecting to OPCUA server at opc.tcp://localhost:4841
-2025-02-25 22:18:14,122 - app.utils.opcua_client - INFO - Connected to OPCUA server at opc.tcp://localhost:4841
-2025-02-25 22:18:14,123 - app.routes.config - INFO - Attempting to retrieve configuration from OPC UA server.
-2025-02-25 22:18:14,123 - app.routes.config - ERROR - Error retrieving configuration: object Node can't be used in 'await' expression
-2025-02-25 22:19:14,329 - app.utils.opcua_client - INFO - Disconnected from OPCUA server
-2025-02-25 22:19:14,329 - app.main - INFO - Successfully disconnected from OPCUA server

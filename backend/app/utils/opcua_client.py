@@ -14,7 +14,15 @@ class OPCUAClient:
         try:
             logger.info(f"Connecting to OPCUA server at {self.url}")
             self.client = Client(url=self.url)
-            # Connect anonymously by not setting any user credentials
+            
+            # Set up security policy for username/password authentication
+            self.client.set_security_string("Basic256Sha256,SignAndEncrypt,admin,admin123")
+            self.client.secure_channel_timeout = 10000
+            
+            # Set user credentials
+            self.client.set_user("admin")
+            self.client.set_password("admin123")
+            
             await self.client.connect()
             logger.info(f"Connected to OPCUA server at {self.url}")
         except Exception as e:

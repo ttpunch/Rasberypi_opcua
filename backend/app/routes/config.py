@@ -7,6 +7,8 @@ from app.models.config import ConfigRequest, ConfigResponse, NamespaceConfig, Va
 from typing import Union, Dict, Any, Optional
 from pydantic import BaseModel
 from asyncua.common.node import Node
+import json
+from pathlib import Path
 
 # Initialize logger and router
 logger = get_logger(__name__)
@@ -42,27 +44,29 @@ async def get_config(client: OPCUAClient = Depends(get_connected_client)):
     try:
         logger.info("Attempting to retrieve configuration from OPC UA server.")
         
-        # Get the namespace index and objects node
-        namespace_idx = await client.get_namespace_index()
-        objects_node = client.client.get_objects_node()  # Removed await
-        
-        # Assuming you want to return some configuration details
-        # You need to replace this with actual logic to retrieve configuration
-        config = {"namespace_idx": namespace_idx, "objects_node": str(objects_node)}
-        
-        logger.info(f"Retrieved config: {config}")
-        return ConfigResponse(status="success", config=config)
+        # Read directly from variables_store.json
+        variables_file = Path("/Users/vinod/Library/Mobile Documents/com~apple~CloudDocs/Coding/Rasberypi_opcua/opcua_server/variables_store.json")
+        if variables_file.exists():
+            with open(variables_file, 'r') as f:
+                stored_variables = json.load(f)
+                logger.info(f"Retrieved variables from store: {stored_variables}")
+                return ConfigResponse(status="success", config=stored_variables)
+        else:
+            return ConfigResponse(status="success", config={})
+            
     except Exception as e:
         logger.error(f"Error retrieving configuration: {str(e)}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
+# Add this at the top level with other constants
+VARIABLES_STORE_PATH = Path("/Users/vinod/Library/Mobile Documents/com~apple~CloudDocs/Coding/Rasberypi_opcua/opcua_server/variables_store.json")
+
+# Update the add_config function
 @router.post("", response_model=ConfigResponse)
 async def add_config(request: ConfigRequest, client: OPCUAClient = Depends(get_connected_client)):
     """Add or update a namespace and its variables on the OPC UA server."""
     try:
-        # Log the incoming request for debugging
         logger.info(f"Received config request: namespace_uri={request.namespace_uri}, variables={request.variables}")
         
-        # Add explicit validation for common issues that might cause 422 errors
         if not request.namespace_uri:
             raise HTTPException(
                 status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
@@ -75,18 +79,34 @@ async def add_config(request: ConfigRequest, client: OPCUAClient = Depends(get_c
                 detail="variables must be a dictionary"
             )
         
-        # Ensure the method is awaited if it's asynchronous
+        # Update OPC UA server
         await client.add_namespace_and_variables(request.namespace_uri, request.variables)
-        logger.info(f"Added/updated namespace {request.namespace_uri} with variables: {request.variables}")
+        
+        # Update variables_store.json
+        try:
+            # Read existing variables
+            if VARIABLES_STORE_PATH.exists():
+                with open(VARIABLES_STORE_PATH, 'r') as f:
+                    stored_variables = json.load(f)
+            else:
+                stored_variables = {}
+            
+            # Update with new variables
+            stored_variables.update(request.variables)
+            
+            # Write back to file
+            with open(VARIABLES_STORE_PATH, 'w') as f:
+                json.dump(stored_variables, f)
+            
+            logger.info(f"Updated variables store with: {request.variables}")
+        except Exception as e:
+            logger.error(f"Error updating variables store: {str(e)}")
+            # Continue execution even if file operation fails
+        
         return ConfigResponse(status="success", config=request.variables)
+        
     except HTTPException:
-        raise  # Re-raise HTTP exceptions
-    except AttributeError as e:
-        logger.error(f"Attribute error: {str(e)}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Attribute error: {str(e)}"
-        )
+        raise
     except Exception as e:
         logger.error(f"Error adding configuration: {str(e)}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
